@@ -1,0 +1,105 @@
+
+body{
+  background-color: #d1e8e2;
+  width: 100%;
+  margin: auto;
+}
+h1{
+	f
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+h2{
+	margin:1em;
+}
+
+#theWebsite{
+	font-family: Georgia, Palatino, Times;
+}
+
+#cover{
+	float:right;
+	content: "";
+    clear: both;
+    display: table;
+}
+
+#titles{
+	margin: 1em;
+	border-style: solid;
+	overflow: auto;
+	margin-bottom: 2em;
+	marker-start: 1em;
+	shape-margin: 1em;
+	padding: 1em;
+}
+#email{
+background-color: cyan;
+border-style: dashed;
+width:400px;
+position:fixed; left:500px; bottom:600px;
+font-family: "Times New Roman", Times, serif;
+}
+
+
+#homeBar{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;	
+  list-style-type: none;
+  margin: 0;
+  padding: 2;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#barItem{
+  float: left;
+}
+
+#emailUs{
+	float: center;
+	margin: 2em;
+}
+
+#barItem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.8em 1em;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#barItem a:hover {
+  background-color: #de8b04;
+}
+table{
+	width: 95%;
+	margin: 1em;
+	border-style: solid;
+	overflow: auto;
+	margin-bottom: 2em;
+	marker-start: 1em;
+	shape-margin: 1em;
+	padding: 1em;
+}
+table, th, td {
+  border: 0.2em solid;
+  border-collapse: collapse;
+  border-spacing:5em;
+	margin: 1em;
+	border-style: solid;
+	overflow: auto;
+	margin-bottom: 2em;
+	shape-margin: 1em;
+	padding: 1em;
+
+}
+
+th, td {
+	width: 2em;
+  padding: 0.5em;
+}
